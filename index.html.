@@ -36,6 +36,10 @@
         .carta.oculta img {
             visibility: hidden;
         }
+        .carta.encontrada {
+            opacity: 0.5; /* Reduce la opacidad de las cartas encontradas */
+            pointer-events: none; /* Deshabilita los clics en las cartas encontradas */
+        }
         #botonIniciar {
             margin: 20px auto;
             display: block;
@@ -184,7 +188,7 @@
                 }, 1000);
 
                 if (cartasEncontradas === cartas.length) {
-                    // Todos los pares encontrados
+                    alert("¡Felicidades! Has encontrado todos los pares.");
                 }
 
             } else {
