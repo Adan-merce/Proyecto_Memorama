@@ -1,5 +1,3 @@
-
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -118,8 +116,6 @@
             "img/img6.png",
             "img/img7.png",
             "img/img8.png",
-            "img/img9.png",
-            "img/img10.png",
             "img/img1.png",
             "img/img2.png",
             "img/img3.png",
@@ -128,8 +124,6 @@
             "img/img6.png",
             "img/img7.png",
             "img/img8.png"
-            "img/img9.png",
-            "img/img10.png",
         ];
         let cartasVolteadas = [];
         let bloqueoTablero = false;
